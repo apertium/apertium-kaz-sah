@@ -7,7 +7,6 @@
 /NEWS -text
 /README -text
 /README.md -text
-/aclocal.m4 -text
 /ap_include.am -text
 /apertium-kaz-sah.kaz-sah.dix -text
 /apertium-kaz-sah.kaz-sah.lrx -text
@@ -21,7 +20,7 @@
 /autogen.sh -text
 /configure.ac -text
 /kaz-sah.prob -text
-/missing -text
 /modes.xml -text
 /sah-kaz.prob -text
-/story.sah.txt -text svneol=unset#application/octet-stream
+texts/story.kaz.txt -text svneol=unset#application/octet-stream
+texts/story.sah.txt -text svneol=unset#application/octet-stream
