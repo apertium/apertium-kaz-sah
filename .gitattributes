@@ -1,22 +1,4 @@
 * text=auto !eol
-.deps/.d -text
-.deps/any-symbol.hfst -text
-.deps/kaz-sah.autobil.att -text
-.deps/kaz-sah.autobil.hfst -text
-.deps/kaz-sah.autobil.prefixes -text
-.deps/kaz-sah.autobil.upper -text
-.deps/kaz-sah.automorf.trimmed -text
-.deps/kaz-sah.automorf.trimmed.att -text
-.deps/kaz.automorf.bin -text
-.deps/kaz.automorf.hfst -text
-.deps/sah-kaz.autobil.att -text
-.deps/sah-kaz.autobil.hfst -text
-.deps/sah-kaz.autobil.prefixes -text
-.deps/sah-kaz.autobil.upper -text
-.deps/sah-kaz.automorf.trimmed -text
-.deps/sah-kaz.automorf.trimmed.att -text
-.deps/sah.automorf.bin -text
-.deps/sah.automorf.hfst -text
 /AUTHORS -text
 /COPYING -text
 /ChangeLog -text
@@ -49,16 +31,7 @@ autom4te.cache/traces.1 -text
 /configure -text
 /configure.ac -text
 /install-sh -text
-/kaz-sah.autobil.bin -text
-/kaz-sah.autogen.bin -text
-/kaz-sah.autolex.bin -text
-/kaz-sah.automorf.bin -text
-/kaz-sah.autopgen.bin -text svneol=unset#image/g3fax
 /kaz-sah.prob -text
-/kaz-sah.rlx.bin -text
-/kaz-sah.t1x.bin -text
-/kaz-sah.t2x.bin -text
-/kaz-sah.t3x.bin -text
 /missing -text
 /modes.xml -text
 modes/@kaz-sah-biltrans.mode -text
@@ -107,14 +80,5 @@ modes/sah-kaz-postchunk.mode -text
 modes/sah-kaz-pretransfer.mode -text
 modes/sah-kaz-tagger.mode -text
 modes/sah-kaz.mode -text
-/sah-kaz.autobil.bin -text
-/sah-kaz.autogen.bin -text
-/sah-kaz.autolex.bin -text
-/sah-kaz.automorf.bin -text
-/sah-kaz.autopgen.bin -text
 /sah-kaz.prob -text
-/sah-kaz.rlx.bin -text
-/sah-kaz.t1x.bin -text
-/sah-kaz.t2x.bin -text
-/sah-kaz.t3x.bin -text
 /story.sah.txt -text svneol=unset#application/octet-stream
