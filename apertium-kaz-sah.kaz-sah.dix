@@ -18,6 +18,8 @@
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
+    <sdef n="cop"             c="Copula"/>
+    <sdef n="qst"             c=""/>
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
@@ -92,12 +94,11 @@
     <sdef n="lquot"           c="Left quote"/>
     <sdef n="rquot"           c="Right quote"/>
 
-    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
-    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
   </sdefs>
 
    <section id="main" type="standard">
-      <!-- Define entries within <e> here. -->
+	  <!-- Miscellaneous -->
+	  <e><p><l>ма<s n="qst"/></l><r>дуо<s n="qst"/></r></p></e>
 
 	  <!-- Pronouns -->
 
@@ -153,6 +154,7 @@
 	  <e><p><l>бүгін<s n="adv"/></l><r>бүгүн<s n="adv"/></r></p></e>
 
 	  <!-- Verbs -->
+	  <e><p><l>е<s n="cop"/></l><r>э<s n="cop"/></r></p></e>
 	  <e><p><l>бол<s n="v"/><s n="iv"/></l><r>буол<s n="v"/><s n="iv"/></r></p></e>
 	  <e><p><l>де<s n="v"/><s n="tv"/></l><r>эт<s n="v"/><s n="tv"/></r></p></e>
 
