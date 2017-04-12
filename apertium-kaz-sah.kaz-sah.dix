@@ -102,6 +102,9 @@
 	  <!-- Pronouns -->
 
 	  <e><p><l>сен<s n="prn"/><s n="pers"/></l><r>эн<s n="prn"/><s n="pers"/></r></p></e>
+
+	  <!-- Numerals -->
+	  <e><p><l>бір<s n="num"/></l><r>биир<s n="num"/></r></p></e>
 	  
 	  <!-- Nouns -->
 	  
