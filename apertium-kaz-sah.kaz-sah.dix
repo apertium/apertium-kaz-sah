@@ -102,6 +102,7 @@
 
 	  <!-- Pronouns -->
 
+	  <e><p><l>мен<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
 	  <e><p><l>сен<s n="prn"/><s n="pers"/></l><r>эн<s n="prn"/><s n="pers"/></r></p></e>
 
 	  <!-- Numerals -->
@@ -157,6 +158,7 @@
 	  <e><p><l>е<s n="cop"/></l><r>э<s n="cop"/></r></p></e>
 	  <e><p><l>бол<s n="v"/><s n="iv"/></l><r>буол<s n="v"/><s n="iv"/></r></p></e>
 	  <e><p><l>де<s n="v"/><s n="tv"/></l><r>эт<s n="v"/><s n="tv"/></r></p></e>
+	  <e><p><l>тап<s n="v"/><s n="tv"/></l><r>бул<s n="v"/><s n="tv"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
