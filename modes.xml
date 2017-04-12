@@ -35,6 +35,10 @@
         <file name="apertium-kaz-sah.kaz-sah.t3x"/>
         <file name="kaz-sah.t3x.bin"/>
       </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-kaz-sah.kaz-sah.t4x"/>
+        <file name="kaz-sah.t4x.bin"/>
+      </program>
       <program name="lt-proc $1">
         <file name="kaz-sah.autogen.bin"/>
       </program>
@@ -79,6 +83,7 @@
         <file name="apertium-kaz-sah.sah-kaz.t3x"/>
         <file name="sah-kaz.t3x.bin"/>
       </program>
+
       <program name="lt-proc $1">
         <file name="sah-kaz.autogen.bin"/>
       </program>
