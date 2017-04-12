@@ -97,7 +97,8 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>house<s n="n"/><s n="sg"/></l><r>house<s n="n"/><s n="sg"/></r></p></e>
+
+	  <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Азамат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	  
 	  <!-- Nouns -->
 	  
@@ -109,7 +110,7 @@
 	  <e><p><l>бала<s n="n"/></l><r>уол<s n="n"/></r></p></e> <!-- does бала mean children not boy? -->
 	  <e><p><l>қыз<s n="n"/></l><r>кыыс<s n="n"/></r></p></e>
 	  <e><p><l>қарындас<s n="n"/></l><r>балыс<s n="n"/></r></p></e>
-	  <e><p><l>күшік<s n="n"/></l><r>ыт оҕото<s n="n"/></r></p></e> <!-- is it okay? what to do with word ыт? which means dog, not small dog -->
+	  <e><p><l>күшік<s n="n"/></l><r>ыт<s n="n"/></r></p></e> <!-- is it okay? what to do with word ыт? which means dog, not small dog -->
 	  <e><p><l>бала<s n="n"/></l><r>оҕо<s n="n"/></r></p></e> <!-- what if there is several translations for one word? -->
 	  <e><p><l>мысық<s n="n"/></l><r>куоска<s n="n"/></r></p></e>
 	  <e><p><l>ана<s n="n"/></l><r>ийэ<s n="n"/></r></p></e>
