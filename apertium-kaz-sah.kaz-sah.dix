@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-   <!-- Define the alphabet below. -->
-  <alphabet>аАбБвВгГдДеЕёЁжЖзЗиИйЙкКлЛмМнНоОпПрРсСтТуУфФхХцЦчzшШщЩъЪыЫьЬэЭюЮяЯһөӨүҮҺҺҥҤҕҔәӘғҒіІқҚңҢөӨұҰүҮҺһ</alphabet>
+  <alphabet></alphabet>
 
   <sdefs>
-    <!-- Define symbol definitions within <sdef> here. -->
     <sdef n="n"               c="Noun"/>
     <sdef n="np"              c="Proper noun"/>
-    <sdef n="vblex"           c="Verb, lexical"/>
+    <sdef n="v"               c="Verb, lexical"/>
     <sdef n="vbmod"           c="Modal verb"/>
     <sdef n="vaux"            c="Auxiliary verb"/>
     <sdef n="vbser"           c="'To be' verb"/>
@@ -38,6 +36,9 @@
     <sdef n="p1"              c="1st person"/>
     <sdef n="p2"              c="2nd person"/>
     <sdef n="p3"              c="3rd person"/>
+
+    <sdef n="iv"              c=""/>
+    <sdef n="tv"              c=""/>
 
     <sdef n="nt"              c="Neuter"/>
     <sdef n="ut"              c="Utrum"/>
@@ -98,7 +99,9 @@
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
 
-	  <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Азамат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+	  <!-- Pronouns -->
+
+	  <e><p><l>сен<s n="prn"/><s n="pers"/></l><r>эн<s n="prn"/><s n="pers"/></r></p></e>
 	  
 	  <!-- Nouns -->
 	  
@@ -130,11 +133,21 @@
 	  <e><p><l>басын<s n="n"/></l><r>төбө<s n="n"/></r></p></e>
 	  <e><p><l>су<s n="n"/></l><r>уу<s n="n"/></r></p></e>
 	  <e><p><l>уақыт<s n="n"/></l><r>кэм<s n="n"/></r></p></e>
+
+	  <!-- Proper nouns -->
+
+	  <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Азамат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	  
 	  <!-- Adjectives -->
 	  
 	  <e><p><l>жақсы<s n="adj"/></l><r>үчүгэй<s n="adj"/></r></p></e>
 	  <e><p><l>жылы<s n="adj"/></l><r>сылаас<s n="adj"/></r></p></e>
+
+	  <!-- Adverbs -->
+	  <e><p><l>бүгін<s n="adv"/></l><r>бүгүн<s n="adv"/></r></p></e>
+
+	  <!-- Verbs -->
+	  <e><p><l>бол<s n="v"/><s n="iv"/></l><r>буол<s n="v"/><s n="iv"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
