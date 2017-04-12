@@ -142,6 +142,9 @@
 	  <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Азамат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	  
 	  <!-- Adjectives -->
+
+	  <e><p><l>бар<s n="adj"/></l><r>баар<s n="adj"/></r></p></e>
+	  <e><p><l>жоқ<s n="adj"/></l><r>суох<s n="adj"/></r></p></e>
 	  
 	  <e><p><l>жақсы<s n="adj"/></l><r>үчүгэй<s n="adj"/></r></p></e>
 	  <e><p><l>жылы<s n="adj"/></l><r>сылаас<s n="adj"/></r></p></e>
@@ -151,6 +154,7 @@
 
 	  <!-- Verbs -->
 	  <e><p><l>бол<s n="v"/><s n="iv"/></l><r>буол<s n="v"/><s n="iv"/></r></p></e>
+	  <e><p><l>де<s n="v"/><s n="tv"/></l><r>эт<s n="v"/><s n="tv"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
