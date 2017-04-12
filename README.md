@@ -1,3 +1,0 @@
-# Kazakh-Sakha translator
-
-

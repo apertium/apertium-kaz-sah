@@ -6,7 +6,6 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/README.md -text
 /ap_include.am -text
 /apertium-kaz-sah.kaz-sah.dix -text
 /apertium-kaz-sah.kaz-sah.lrx -text
