@@ -111,6 +111,8 @@
 
 	  <!-- Numerals -->
 	  <e><p><l>бір<s n="num"/></l><r>биир<s n="num"/></r></p></e>
+	  <e><p><l>бес<s n="num"/></l><r>биэс<s n="num"/></r></p></e>
+	  <e><p><l>алты<s n="num"/></l><r>алта<s n="num"/></r></p></e>
 	  
 	  <!-- Nouns -->
 	  
@@ -162,10 +164,14 @@
 
 	  <e><p><l>бүгін<s n="adv"/></l><r>бүгүн<s n="adv"/></r></p></e>
 
+	  <e><p><l>әбден<s n="adv"/></l><r>олус<s n="adv"/></r></p></e>
+
 	  <!-- Verbs -->
 	  <e><p><l>е<s n="cop"/></l><r>э<s n="cop"/></r></p></e>
 	  <e><p><l>бол<s n="v"/><s n="iv"/></l><r>буол<s n="v"/><s n="iv"/></r></p></e>
+	  <e><p><l>кел<s n="v"/><s n="iv"/></l><r>кэл<s n="v"/><s n="iv"/></r></p></e>
 	  <e><p><l>де<s n="v"/><s n="tv"/></l><r>эт<s n="v"/><s n="tv"/></r></p></e>
+	  <e><p><l>ойна<s n="v"/><s n="tv"/></l><r>оонньоо<s n="v"/><s n="tv"/></r></p></e>
 	  <e><p><l>тап<s n="v"/><s n="tv"/></l><r>бул<s n="v"/><s n="tv"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
