@@ -110,7 +110,10 @@
 
 	  <e><p><l>мен<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
 	  <e><p><l>сен<s n="prn"/><s n="pers"/></l><r>эн<s n="prn"/><s n="pers"/></r></p></e>
-
+	  <e><p><l>ол<s n="prn"/><s n="pers"/></l><r>кини<s n="prn"/><s n="pers"/></r></p></e>
+	  <e><p><l>олар<s n="prn"/><s n="pers"/></l><r>кинилэр<s n="prn"/><s n="pers"/></r></p></e>
+	  <e><p><l>бу<s n="prn"/><s n="pers"/></l><r>бу<s n="prn"/><s n="pers"/></r></p></e>
+	  
 	  <!-- Numerals -->
 	  <e><p><l>бір<s n="num"/></l><r>биир<s n="num"/></r></p></e>
 	  <e><p><l>бес<s n="num"/></l><r>биэс<s n="num"/></r></p></e>
