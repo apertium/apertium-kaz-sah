@@ -4,6 +4,9 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
+	<def-cat n="np">
+	  <cat-item tags="np.*"/>
+	</def-cat>
 	<def-cat n="prn">
 	  <cat-item tags="prn.*"/>
 	</def-cat>
@@ -40,6 +43,27 @@
     <rule comment="REGLA: NOUN">
       <pattern>
         <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default_nom1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+	
+    <rule comment="REGLA: NP">
+      <pattern>
+        <pattern-item n="np"/>
       </pattern>
       <action>
         <call-macro n="f_default_nom1">
