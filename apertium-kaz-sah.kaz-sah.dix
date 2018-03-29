@@ -14,6 +14,7 @@
     <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
     <sdef n="cnjadv"          c="Adverbial conjunction"/>
     <sdef n="pr"              c="Preposition"/>
+	<sdef n="post"            c="Postpositions"/>
     <sdef n="adv"             c="Adverb"/>
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
@@ -107,6 +108,10 @@
 	  <e><p><l>мен<s n="cnjcoo"/></l><r>уонна<s n="cnjcoo"/></r></p></e>
 	  <e><p><l>ал<s n="cnjcoo"/></l><r>оттон<s n="cnjcoo"/></r></p></e>
 	  <e><p><l>бірақ<s n="cnjcoo"/></l><r>ол<b/>гынан<s n="cnjcoo"/></r></p></e>
+	  
+	  <!-- Postpositions -->
+	  
+	  <e><p><l>кейін<s n="post"/></l><r>баран<s n="post"/></r></p></e>
 
 	  <!-- Pronouns -->
 
@@ -114,7 +119,8 @@
 	  <e><p><l>сен<s n="prn"/><s n="pers"/></l><r>эн<s n="prn"/><s n="pers"/></r></p></e>
 	  <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/></l><r>кини<s n="prn"/><s n="pers"/><s n="p3"/><s n="hu"/></r></p></e>
 	  <e><p><l>олар<s n="prn"/><s n="pers"/><s n="p3"/></l><r>кинилэр<s n="prn"/><s n="pers"/><s n="p3"/><s n="hu"/></r></p></e>
-	  <e><p><l>бу<s n="prn"/><s n="pers"/></l><r>бу<s n="prn"/><s n="pers"/></r></p></e>
+	  <e><p><l>бу<s n="dem"/><s n="pers"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e> <!-- kaz? -->
+	  <e><p><l>бұл<s n="prn"/><s n="dem"/></l><r>ити<s n="prn"/><s n="dem"/></r></p></e>
 	  
 	  <!-- Numerals -->
 	  <e><p><l>бір<s n="num"/></l><r>биир<s n="num"/></r></p></e>
@@ -168,6 +174,8 @@
 	  <e><p><l>үлкен<s n="adj"/></l><r>улахан<s n="adj"/></r></p></e>
 	  <e><p><l>кішкентай<s n="adj"/></l><r>кыра<s n="adj"/></r></p></e>
 	  <e><p><l>қуанышты<s n="adj"/></l><r>дьоллоох<s n="adj"/></r></p></e>
+	  
+	  <e><p><l>жасар<s n="adj"/></l><r>саастаах<s n="adj"/></r></p></e> <!-- жаста? -->
 
 	  <!-- Adverbs -->
 	  <e><p><l>қайда<s n="adv"/><s n="itg"/></l><r>ханна<s n="adv"/><s n="itg"/></r></p></e>
@@ -178,6 +186,7 @@
 	  
 	  <e><p><l>кеше<s n="adv"/></l><r>бэҕэһээ<s n="adv"/></r></p></e>
 	  <e><p><l>өте<s n="adv"/></l><r>олус<s n="adv"/></r></p></e>
+	  <e><p><l>қазір<s n="adv"/></l><r>билигин<s n="adv"/></r></p></e>
 
 	  <!-- Verbs -->
 	  <e><p><l>е<s n="cop"/></l><r>э<s n="cop"/></r></p></e>
@@ -192,6 +201,7 @@
 	  <e><p><l>қар<s n="v"/><s n="tv"/></l><r>көр<s n="v"/><s n="tv"/></r></p></e>
 	  <e><p><l>ізде<s n="v"/><s n="tv"/></l><r>көрдөө<s n="v"/><s n="tv"/></r></p></e> <!-- no көрдөө -->
 	  <e><p><l>біл<s n="v"/><s n="tv"/></l><r>бил<s n="v"/><s n="tv"/></r></p></e>
+	  <e><p><l>сана<s n="v"/><s n="tv"/></l><r>аах<s n="v"/><s n="tv"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
