@@ -25,6 +25,9 @@
 	<def-cat n="ger-nom">
 	  <cat-item tags="v.*.ger.nom"/>
 	</def-cat>
+	<def-cat n="ger-past">
+	  <cat-item tags="v.*.ger_past.*"/>
+	</def-cat>
 	<def-cat n="cop-aor">
 	  <cat-item tags="cop.aor.*"/>
 	</def-cat>
@@ -44,6 +47,10 @@
       <attr-item tags="p1.pl"/>
       <attr-item tags="p2.pl"/>
       <attr-item tags="p3.pl"/>
+    </def-attr>
+    <def-attr n="a_ger">
+      <attr-item tags="ger_past"/>
+      <attr-item tags="ger_aor"/>
     </def-attr>
     <def-attr n="a_neg">
       <attr-item tags="neg"/>
@@ -80,10 +87,16 @@
 
   <section-def-macros>
 
+    <def-macro n="f_default_nonfin1" npar="1">
+      <choose><when><test><equal><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger_past"/></equal></test>
+      <let><clip pos="1" side="tl" part="a_ger"/><lit-tag v="ger_aor"/></let></when></choose>
+    </def-macro>
+
     <def-macro n="f_default_tense1" npar="1">
       <choose><when><test><equal><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></equal></test>
       <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="aor"/></let></when></choose>
     </def-macro>
+
 
     <def-macro n="f_default_nom1" npar="1">
       <choose><when><test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="loc"/></equal></test>
@@ -150,6 +163,27 @@
           <chunk name="n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: ger-past">
+      <pattern>
+        <pattern-item n="ger-past"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default_nonfin1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="ger" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
