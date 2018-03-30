@@ -10,12 +10,62 @@
 	<def-cat n="prn">
 	  <cat-item tags="prn.*"/>
 	</def-cat>
+	<def-cat n="tur">
+	  <cat-item lemma="тұр" tags="vaux.pres.*"/>
+	  <cat-item lemma="тұр" tags="vaux.ifi.*"/>
+	  <cat-item lemma="тұр" tags="vaux.*.pres.*"/>
+	  <cat-item lemma="тұр" tags="vaux.*.ifi.*"/>
+	</def-cat>
+	<def-cat n="vaux-pres">
+	  <cat-item tags="vaux.pres.*"/>
+	</def-cat>
+	<def-cat n="prc-perf">
+	  <cat-item tags="v.*.prc_perf"/>
+	</def-cat>
+	<def-cat n="ger-nom">
+	  <cat-item tags="v.*.ger.nom"/>
+	</def-cat>
+	<def-cat n="cop-aor">
+	  <cat-item tags="cop.aor.*"/>
+	</def-cat>
+    <def-cat n="kerek">
+      <cat-item lemma="керек" tags="adj"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
+    <def-attr n="a_pers_nbr">
+      <attr-item tags="p1.sg"/>
+      <attr-item tags="p2.sg"/>
+      <attr-item tags="p3.sg"/>
+      <attr-item tags="p1.pl"/>
+      <attr-item tags="p2.pl"/>
+      <attr-item tags="p3.pl"/>
+    </def-attr>
+    <def-attr n="a_neg">
+      <attr-item tags="neg"/>
+    </def-attr>
+    <def-attr n="a_val">
+      <attr-item tags="iv"/>
+      <attr-item tags="tv"/>
+    </def-attr>
+    <def-attr n="a_verb">
+      <attr-item tags="v"/>
+      <attr-item tags="vaux"/>
+    </def-attr>
+    <def-attr n="a_prc">
+      <attr-item tags="prc_impf"/>
+      <attr-item tags="prc_perf"/>
+    </def-attr>
+    <def-attr n="a_tns">
+      <attr-item tags="aor"/>
+      <attr-item tags="past"/>
+      <attr-item tags="ifi"/>
+      <attr-item tags="pres"/>
+    </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
       <attr-item tags="dat"/>
@@ -29,14 +79,20 @@
   </section-def-vars>
 
   <section-def-macros>
+
+    <def-macro n="f_default_tense1" npar="1">
+      <choose><when><test><equal><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></equal></test>
+      <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="aor"/></let></when></choose>
+    </def-macro>
+
     <def-macro n="f_default_nom1" npar="1">
       <choose><when><test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="loc"/></equal></test>
       <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="dat"/></let></when></choose>
 	
 	  <choose><when><test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></equal></test>
 	  <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let></when></choose>
-
     </def-macro>
+
   </section-def-macros>
 
   <section-rules>
@@ -102,6 +158,98 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: ger-nom kerek">
+      <pattern>
+        <pattern-item n="ger-nom"/>
+        <pattern-item n="kerek"/>
+        <pattern-item n="cop-aor"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="v-nec" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_val"/>
+              <lit-tag v="nec"/>
+              <clip pos="3" side="tl" part="a_pers_nbr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: vaux-pres">
+      <pattern>
+        <pattern-item n="vaux-pres"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default_tense1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="aux" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: prc-perf tur">
+      <pattern>
+        <pattern-item n="prc-perf"/>
+        <pattern-item n="tur"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="prc" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_val"/>
+              <clip pos="2" side="tl" part="a_neg"/>
+              <clip pos="2" side="tl" part="a_tns"/>
+              <clip pos="2" side="tl" part="a_pers_nbr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: prc-perf">
+      <pattern>
+        <pattern-item n="prc-perf"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_prc"/><lit-tag v="prc_impf"/></let>
+        <out>
+          <chunk name="prc" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
 
     <rule comment="REGLA: SENT">
