@@ -114,9 +114,7 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
-        <call-macro n="f_default_nom1">
-          <with-param pos="1"/>
-        </call-macro>
+        <call-macro n="f_default_nom1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="n" case="caseFirstWord">
             <tags>
@@ -177,9 +175,8 @@
         <pattern-item n="ger-past"/>
       </pattern>
       <action>
-        <call-macro n="f_default_nonfin1">
-          <with-param pos="1"/>
-        </call-macro>
+        <call-macro n="f_default_nonfin1"><with-param pos="1"/></call-macro>
+        <call-macro n="f_default_nom1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="ger" case="caseFirstWord">
             <tags>
