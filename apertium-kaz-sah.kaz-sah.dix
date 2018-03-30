@@ -108,6 +108,7 @@
 	  <!-- Conjunctions -->
 
 	  <e><p><l>мен<s n="cnjcoo"/></l><r>уонна<s n="cnjcoo"/></r></p></e>
+	  <e><p><l>және<s n="cnjcoo"/></l><r>уонна<s n="cnjcoo"/></r></p></e>
 	  <e><p><l>ал<s n="cnjcoo"/></l><r>оттон<s n="cnjcoo"/></r></p></e>
 	  <e><p><l>да<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
 	  <e><p><l>бірақ<s n="cnjcoo"/></l><r>ол<b/>гынан<s n="cnjcoo"/></r></p></e>
@@ -141,9 +142,11 @@
 	  <!-- Nouns -->
 
 	  <e><p><l>жан<s n="n"/></l><r>атт<s n="n"/></r></p></e>
+	  <e><p><l>іш<s n="n"/></l><r>уст<s n="n"/></r></p></e>
+	  <e><p><l>аст<s n="n"/></l><r>алын<s n="n"/></r></p></e>
 	  
 	  <e><p><l>бақша<s n="n"/></l><r>сад<s n="n"/></r></p></e>
-	  <e><p><l>ауа райы<s n="n"/></l><r>күн-дьыл<s n="n"/></r></p></e>
+	  <e><p><l>ауа<b/>райы<s n="n"/></l><r>күн-дьыл<s n="n"/></r></p></e>
 	  <e><p><l>дала<s n="n"/></l><r>таһырдьа<s n="n"/></r></p></e>
 	  <e><p><l>үй<s n="n"/></l><r>дьиэ<s n="n"/></r></p></e>
 	  <e><p><l>бала<s n="n"/></l><r>уол<s n="n"/></r></p></e> <!-- does бала mean children not boy? -->
