@@ -135,6 +135,7 @@
 	  <e><p><l>не<s n="prn"/><s n="itg"/></l><r>туох<s n="prn"/><s n="itg"/></r></p></e>
 	  <e><p><l>сол<s n="prn"/><s n="dem"/></l><r>сол<s n="prn"/><s n="dem"/></r></p></e>
 	  <e><p><l>нәрсе<s n="prn"/><s n="itg"/></l><r>туох<s n="prn"/><s n="itg"/></r></p></e>
+	  <e><p><l>еш<b/>нәрсе<s n="prn"/></l><r>тугу<b/>да<s n="prn"/></r></p></e>
 	  
 	  <!-- Numerals -->
 	  <e><p><l>бір<s n="num"/></l><r>биир<s n="num"/></r></p></e>
@@ -220,6 +221,8 @@
 	  <e><p><l>өте<s n="adv"/></l><r>олус<s n="adv"/></r></p></e>
 	  <e><p><l>қазір<s n="adv"/></l><r>билигин<s n="adv"/></r></p></e>
 	  <e><p><l>әрдайым<s n="adv"/></l><r>куруук<s n="adv"/></r></p></e>
+	  <e><p><l>әлбетте<s n="adv"/></l><r>биллэн<b/>турар<s n="adv"/></r></p></e>
+	  <e><p><l>осы<b/>себептен<s n="cnjadv"/></l><r>ол<b/>иһин<s n="adv"/></r></p></e>
 
 	  <!-- Verbs -->
 	  <e><p><l>е<s n="cop"/></l><r>э<s n="cop"/></r></p></e>
@@ -256,6 +259,7 @@
       <e><p><l>жүр<s n="v"/><s n="iv"/></l><r>хаам<s n="v"/><s n="iv"/></r></p></e> <!-- ? -->
       <e><p><l>күл<s n="v"/><s n="iv"/></l><r>күл<s n="v"/><s n="iv"/></r></p></e>
       <e><p><l>есті<s n="v"/><s n="tv"/></l><r>иһит<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>жүгір<s n="v"/><s n="iv"/></l><r>сүүр<s n="v"/><s n="iv"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
