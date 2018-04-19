@@ -82,6 +82,9 @@
       <attr-item tags="loc"/>
 	  <attr-item tags="gen"/>
     </def-attr>
+	<def-attr n="a_frm">
+	  <attr-item tags="frm"/>
+	</def-attr>
   </section-def-attrs>
 
   <section-def-vars>
@@ -101,6 +104,9 @@
 
 	  <choose><when><test><equal><clip pos="1" side="tl" part="a_tns"/><lit-tag v="ifi"/></equal></test>
 	  <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="past"/></let></when></choose>
+	  
+	  <choose><when><test><equal><clip pos="1" side="tl" part="a_frm"/><lit-tag v="frm"/></equal></test>
+	  <let><clip pos="1" side="tl" part="a_frm"/><lit v=""/></let></when></choose>
     </def-macro>
 
 
@@ -110,6 +116,9 @@
 	
 	  <choose><when><test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></equal></test>
 	  <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let></when></choose>
+	  
+	  <choose><when><test><equal><clip pos="1" side="tl" part="a_frm"/><lit-tag v="frm"/></equal></test>
+	  <let><clip pos="1" side="tl" part="a_frm"/><lit v=""/></let></when></choose>
     </def-macro>
 
   </section-def-macros>
