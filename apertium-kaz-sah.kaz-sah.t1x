@@ -31,6 +31,9 @@
 	<def-cat n="cop-aor">
 	  <cat-item tags="cop.aor.*"/>
 	</def-cat>
+	<def-cat n="cop-ifi">
+	  <cat-item tags="cop.ifi.*"/>
+	</def-cat>
     <def-cat n="kerek">
       <cat-item lemma="керек" tags="adj"/>
     </def-cat>
@@ -95,6 +98,9 @@
     <def-macro n="f_default_tense1" npar="1">
       <choose><when><test><equal><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></equal></test>
       <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="aor"/></let></when></choose>
+
+	  <choose><when><test><equal><clip pos="1" side="tl" part="a_tns"/><lit-tag v="ifi"/></equal></test>
+	  <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="past"/></let></when></choose>
     </def-macro>
 
 
@@ -269,6 +275,28 @@
         <let><clip pos="1" side="tl" part="a_prc"/><lit-tag v="prc_impf"/></let>
         <out>
           <chunk name="prc" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: cop-ifi">
+      <pattern>
+        <pattern-item n="cop-ifi"/>
+      </pattern>
+      <action>
+        <call-macro n="f_default_tense1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="cop" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
             </tags>
