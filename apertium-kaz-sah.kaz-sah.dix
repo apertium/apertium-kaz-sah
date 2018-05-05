@@ -130,8 +130,7 @@
 	  <e><p><l>сен<s n="prn"/><s n="pers"/></l><r>эн<s n="prn"/><s n="pers"/></r></p></e>
 	  <e><p><l>ол<s n="prn"/><s n="pers"/><s n="p3"/></l><r>кини<s n="prn"/><s n="pers"/><s n="p3"/><s n="hu"/></r></p></e>
 	  <e><p><l>олар<s n="prn"/><s n="pers"/><s n="p3"/></l><r>кинилэр<s n="prn"/><s n="pers"/><s n="p3"/><s n="hu"/></r></p></e>
-	  <e><p><l>бу<s n="dem"/><s n="pers"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e> <!-- kaz? -->
-	  <e><p><l>бұл<s n="prn"/><s n="dem"/></l><r>ити<s n="prn"/><s n="dem"/></r></p></e>
+	  <e><p><l>бұл<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
 	  <e><p><l>не<s n="prn"/><s n="itg"/></l><r>туох<s n="prn"/><s n="itg"/></r></p></e>
 	  <e><p><l>сол<s n="prn"/><s n="dem"/></l><r>сол<s n="prn"/><s n="dem"/></r></p></e>
 	  <e><p><l>нәрсе<s n="prn"/><s n="itg"/></l><r>туох<s n="prn"/><s n="itg"/></r></p></e>
