@@ -22,6 +22,7 @@
     <sdef n="prn"             c="Pronoun"/>
     <sdef n="cop"             c="Copula"/>
     <sdef n="qst"             c=""/>
+	<sdef n="abbr"            c="Abbreviation"/>
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
@@ -112,11 +113,18 @@
 	  <e><p><l>ал<s n="cnjcoo"/></l><r>оттон<s n="cnjcoo"/></r></p></e>
 	  <e><p><l>да<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
 	  <e><p><l>бірақ<s n="cnjcoo"/></l><r>ол<b/>гынан<s n="cnjcoo"/></r></p></e>
+
+	  <e><p><l>немесе<s n="cnjcoo"/></l><r>эбэтэр<s n="cnjcoo"/></r></p></e>
 	  
 	  <!-- Postpositions -->
 	  
 	  <e><p><l>кейін<s n="post"/></l><r>баран<s n="post"/></r></p></e>
 	  <e><p><l>үшін<s n="post"/></l><r>иһин<s n="post"/></r></p></e>
+
+	  <e><p><l>басқа<s n="post"/></l><r>атын<s n="post"/></r></p></e>
+	  <e><p><l>бойынша<s n="post"/></l><r>быһыытынан<s n="post"/></r></p></e>
+	  <e><p><l>ретінде<s n="post"/></l><r>быһыытынан<s n="post"/></r></p></e>
+	  <e><p><l>туралы<s n="post"/></l><r>туһунан<s n="post"/></r></p></e>
 
 	  <!-- Determiners -->
 
@@ -136,11 +144,17 @@
 	  <e><p><l>нәрсе<s n="prn"/><s n="itg"/></l><r>туох<s n="prn"/><s n="itg"/></r></p></e>
 	  <e><p><l>ешнәрсе<s n="prn"/><s n="neg"/></l><r>туох<b/>да<s n="prn"/><s n="neg"/></r></p></e>
 	  
+	  <e><p><l>осы<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
+	  
 	  <!-- Numerals -->
+	  
 	  <e><p><l>бір<s n="num"/></l><r>биир<s n="num"/></r></p></e>
 	  <e><p><l>бес<s n="num"/></l><r>биэс<s n="num"/></r></p></e>
 	  <e><p><l>алты<s n="num"/></l><r>алта<s n="num"/></r></p></e>
 	  <e><p><l>екеу<s n="num"/></l><r>иккиэн<s n="num"/></r></p></e>
+
+	  <e><p><l>екі<s n="num"/></l><r>икки<s n="num"/></r></p></e>
+	  <e><p><l>мың<s n="num"/></l><r>тыһыынча<s n="num"/></r></p></e>
 	  
 	  <!-- Nouns -->
 
@@ -181,10 +195,18 @@
       <e><p><l>арт<s n="n"/></l><r>кэлин<s n="n"/></r></p></e>
       <e><p><l>айнала<s n="n"/></l><r>тула<s n="n"/></r></p></e>
 
+      <e><p><l>бас<s n="n"/></l><r>төбө<s n="n"/></r></p></e>
+      <e><p><l>жыл<s n="n"/></l><r>сыл<s n="n"/></r></p></e>
+      <e><p><l>жұмыс<s n="n"/></l><r>үлэ<s n="n"/></r></p></e>
+      <e><p><l>қазақ<s n="n"/></l><r>казах<s n="n"/></r></p></e>
+      <e><p><l>пайда<s n="n"/></l><r>туһа<s n="n"/></r></p></e>
+
 	  <!-- Proper nouns -->
 
 	  <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Азамат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	  <e><p><l>Айгүл<s n="np"/><s n="ant"/><s n="f"/></l><r>Айгүл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
+	  <e><p><l>Қазақстан<s n="np"/><s n="top"/></l><r>Казахстан<s n="np"/><s n="top"/></r></p></e>
 	  
 	  <!-- Adjectives -->
 
@@ -206,15 +228,24 @@
 	  <e><p><l>жасар<s n="adj"/></l><r>саастаах<s n="adj"/></r></p></e> <!-- жаста? -->
 	  <e><p><l>анық<s n="adj"/></l><r>дьэҥкэ<s n="adj"/></r></p></e>
 	  <e><p><l>барлық<s n="adj"/></l><r>бары<s n="adj"/></r></p></e>
-	  <e><p><l>көңілді<s n="adj"/></l><r>дьоллоох<s n="adj"/></r></p></e>  
+	  <e><p><l>көңілді<s n="adj"/></l><r>дьоллоох<s n="adj"/></r></p></e>
+
+	  <e><p><l>басқа<s n="adj"/></l><r>атын<s n="adj"/></r></p></e>
+	  <e><p><l>жаңа<s n="adj"/></l><r>саҥа<s n="adj"/></r></p></e>
+	  <e><p><l>көп<s n="adj"/></l><r>элбэх<s n="adj"/></r></p></e>
+	  <e><p><l>негізгі<s n="adj"/></l><r>сүрүн<s n="adj"/></r></p></e>
+	  <e><p><l>түрлі<s n="adj"/></l><r>араас<s n="adj"/></r></p></e>
 
 	  <!-- Adverbs -->
+	  
 	  <e><p><l>қайда<s n="adv"/><s n="itg"/></l><r>ханна<s n="adv"/><s n="itg"/></r></p></e>
 
 	  <e><p><l>да<s n="postadv"/></l><r>эмиэ<s n="adv"/></r></p></e>
 	  <e><p><l>бүгін<s n="adv"/></l><r>бүгүн<s n="adv"/></r></p></e>
 	  <e><p><l>ақырын<s n="adv"/></l><r>болҕомтолоохтук<s n="adv"/></r></p></e>
 	  <e><p><l>енді<s n="adv"/></l><r>билигин<s n="adv"/></r></p></e>
+	  
+	  <e><p><l>ең<s n="adv"/></l><r>ордук<s n="adv"/></r></p></e>	  
 
 	  <!-- mistake? --> <e><p><l>әбден<s n="adv"/></l><r>олус<s n="adv"/></r></p></e>
 	  
@@ -227,8 +258,11 @@
 	  <e><p><l>әлбетте<s n="adv"/></l><r>биллэн<b/>турар<s n="adv"/></r></p></e>
 	  <e><p><l>осы<b/>себептен<s n="cnjadv"/></l><r>ол<b/>иһин<s n="adv"/></r></p></e>
 	  <e><p><l>қатты<s n="adv"/></l><r>түргэнник<s n="adv"/></r></p></e>
+	  
+	  <e><p><l>жылы<s n="adv"/></l><r>сылаастык<s n="adv"/></r></p></e>
 
 	  <!-- Verbs -->
+	  
 	  <e><p><l>е<s n="cop"/></l><r>э<s n="cop"/></r></p></e>
 	  <e><p><l>ал<s n="vaux"/></l><r>эт<s n="vaux"/></r></p></e>
 	  <e r="LR"><p><l>тұр<s n="vaux"/></l><r></r></p></e>
@@ -273,6 +307,11 @@
       <e><p><l>шық<s n="v"/><s n="iv"/></l><r>таҕыс<s n="v"/><s n="iv"/></r></p></e>
       <e><p><l>бас<s n="v"/><s n="iv"/></l><r>хаам<s n="v"/><s n="iv"/></r></p></e>
       <e><p><l>жақсы<b/>көр<s n="v"/><s n="tv"/></l><r>сөбүлээ<s n="v"/><s n="tv"/></r></p></e>
+	  
+	  <!-- Abbreviations -->
+	  
+	  <e><p><l>ж.<s n="abbr"/></l><r>с.<s n="abbr"/></r></p></e>
+	  <e><p><l>т.б.<s n="abbr"/></l><r>уо.д.а.<s n="abbr"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
