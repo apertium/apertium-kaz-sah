@@ -2,7 +2,6 @@
 ## Makefile for Kazakh--Sakha
 ###############################################################################
 
-VERSION=0.1.0
 LANG1=kaz
 LANG2=sah
 PREFIX1=$(LANG1)-$(LANG2)
@@ -249,11 +248,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "house" | apertium -d . kaz-sah | tee .test-mt
-	@echo "house" > .test-ref
-	@diff .test-ref .test-mt
-	echo "house" | apertium -d . sah-kaz | tee .test-mt
-	@echo "house" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
-
+	apertium-regtest test

@@ -1,0 +1,10 @@
+{
+    "kaz-sah": {
+        "input": "kaz-sah-input.txt",
+        "mode": "kaz-sah"
+    },
+    "sah-kaz": {
+        "input": "sah-kaz-input.txt",
+        "mode": "sah-kaz"
+    }
+}

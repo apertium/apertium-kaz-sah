@@ -1,0 +1,10 @@
+[FU7DtoepZeed#0] ^unknown<unknown>{^*چ$}$
+[/FU7DtoepZeed]
+[QbgF6nrAFOI1#0] ^sent<SENT>{^;<sent>$}$
+[/QbgF6nrAFOI1]
+[u3IIvJtdfATx#0] ^sent<SENT>{^!<sent>$}$
+[/u3IIvJtdfATx]
+[vE1jFSavYhsh#0] ^default<default>{^,<cm>$}$
+[/vE1jFSavYhsh]
+[zbTuKuppzGqD#0] ^sent<SENT>{^.<sent>$}$
+[/zbTuKuppzGqD]
