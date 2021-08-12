@@ -85,6 +85,15 @@
       <attr-item tags="loc"/>
 	  <attr-item tags="gen"/>
     </def-attr>
+    <def-attr n="a_px">
+      <attr-item tags="px1sg"/>
+      <attr-item tags="px2sg"/>
+      <attr-item tags="px3sg"/>
+      <attr-item tags="px3sp"/>
+      <attr-item tags="px1pl"/>
+      <attr-item tags="px2pl"/>
+      <attr-item tags="px3pl"/>
+    </def-attr>
 	<def-attr n="a_frm">
 	  <attr-item tags="frm"/>
 	</def-attr>
@@ -119,6 +128,9 @@
 	  <choose><when><test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></equal></test>
 	  <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let></when></choose>
 	  
+	  <choose><when><test><equal><clip pos="1" side="tl" part="a_px"/><lit-tag v="px3sp"/></equal></test>
+	  <let><clip pos="1" side="tl" part="a_px"/><lit-tag v="px3sg"/></let></when></choose>
+
 	  <let><clip pos="1" side="tl" part="a_frm"/><lit v=""/></let>
     </def-macro>
 
